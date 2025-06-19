@@ -91,7 +91,7 @@ const ShareButtons = ({ post }) => {
     setShareUrl(window.location.href)
   }, [])
 
-  //return (
+  return (
     <>
       {services.map(singleService => {
         switch (singleService) {
