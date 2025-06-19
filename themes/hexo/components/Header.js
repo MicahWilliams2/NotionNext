@@ -68,12 +68,12 @@ const Header = props => {
         nav && nav.classList.replace('bg-white', 'bg-none')
         nav && nav.classList.replace('border', 'border-transparent')
         nav && nav.classList.replace('drop-shadow-md', 'shadow-none')
-        nav && nav.classList.replace('dark:bg-hexo-black-gray', 'transparent')
+        nav && nav.classList.replace('dark', 'transparent')
       } else {
         nav && nav.classList.replace('bg-none', 'bg-white')
         nav && nav.classList.replace('border-transparent', 'border')
         nav && nav.classList.replace('shadow-none', 'drop-shadow-md')
-        nav && nav.classList.replace('transparent', 'dark:bg-hexo-black-gray')
+        nav && nav.classList.replace('transparent', 'dark')
       }
 
       if (scrollInHeader) {
