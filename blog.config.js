@@ -62,12 +62,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi, I'm Michael — the founder of GodofMachining.
-     With a background in mechanical engineering and years of hands-on experience in CNC machining and product design, I specialize in turning ideas into precision components. 
-    I’ve worked closely with Chinese factories, overseas clients, and cross-border supply chains to deliver custom machining solutions that meet tight tolerances and real-world needs.
-    GodofMachining is more than a name — it's my commitment to quality, speed, and practical problem-solving.
-    Whether you're a startup prototyping a product or a research team sourcing high-precision parts, I’m here to support you with technical insight and trustworthy delivery.
-    Let’s build something great together',
+    '',
       
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
